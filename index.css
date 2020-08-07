@@ -2,9 +2,39 @@
 
 @font-face {
     font-family: "Trueno";
-    src: url('./font/TruenoBdOl.otf');
+    src: url('./font/TruenoUltLt.otf');
     font-style: normal;
-    font-family: 100,200,300,400,500,600,700,800,900;
+    font-family: 100,200;
+}
+@font-face {
+    font-family: "Trueno";
+    src: url('./font/TruenoSBd.otf');
+    font-style: normal;
+    font-family: 700;
+}
+@font-face {
+    font-family: "Trueno";
+    src: url('./font/TruenoBlk.otf');
+    font-style: normal;
+    font-family: 900;
+}
+@font-face {
+    font-family: "Trueno";
+    src: url('./font/TruenoBd.otf');
+    font-style: normal;
+    font-family: 800;
+}
+@font-face {
+    font-family: "Trueno";
+    src: url('./font/TruenoLt.otf');
+    font-style: normal;
+    font-family: 300,400;
+}
+@font-face {
+    font-family: "Trueno";
+    src: url('./font/TruenoRg.otf');
+    font-style: normal;
+    font-family: 500,600;
 }
 p, h4, h3{
     line-height: 1.7em;
