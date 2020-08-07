@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;600&display=swap');
+@import url('db.onlinewebfonts.com/c/ec0dbdb6bebc34634ada7628478460eb?family=Trueno');
 p, h4, h3{
     line-height: 1.7em;
 }
@@ -10,8 +12,8 @@ body, html {
     margin: 0;
 }
 
-* {
-    font-family: 'Montserrat';
+.secondiv, .thirdiv, .fourthdiv, header, .pblue, footer p {
+    font-family: 'Trueno';
 
 }
 
@@ -120,6 +122,7 @@ header {
     }
 
     .firstdiv {
+        font-family: 'Poppins', sans-serif !important;
         margin-top: 95px;
             width: 100%;
             display: flex;
@@ -167,7 +170,7 @@ height: 494.83px;
         margin-bottom: 20px;
     }
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 641px) {
         .rightdiv {
             width: 33% !important;
             text-align: end !important;
@@ -216,7 +219,7 @@ height: 494.83px;
         }
 
         .secondivimg {
-            margin-top: 90px !important;
+            margin-top: 186px !important;
             width: 97% ;
         }
 
@@ -260,10 +263,10 @@ height: 494.83px;
     text-align: center;
 }
 
-.secondivimg {
+/* .secondivimg {
     margin-top: -50px;
     z-index: 0 !important;
-}
+} */
 
 .innersecondiv {
 margin-top: 10px;
@@ -274,6 +277,7 @@ text-align: center;
 }
 
 .undersecondiv {
+    position: relative;
     width: 90vw;
     margin-top: -25px;
     background-color: #fff;
@@ -386,6 +390,8 @@ background-image: url('./images/fourthdivbtn.svg');
 }
 
 .comment p {
+    margin-right: 3vw;
+    margin-left: 2vw;
     padding: 20px;
 background-color: #fff;
 border-radius: 5px;
@@ -407,6 +413,9 @@ color: #01114C;
 footer {
     background-image: url('./images/footer.svg');
     padding-bottom: 5vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 
 footer p {
@@ -421,10 +430,13 @@ footer p {
     flex-flow: row wrap;
     justify-content: space-evenly;
     text-align: center;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .footerdiv h3 {
     color: #041E8B;
+    text-align: left;
+
 }
 
 .footerdiv button {
@@ -463,6 +475,7 @@ footer a {
 .map {
     margin-top: -10vh;
     z-index: 0;
+    
 }
 
 .pblue {
@@ -471,13 +484,18 @@ footer a {
 }
 
 .innerstreet {
-    z-index: 5;
     padding: 13px 23px;
     border-radius: 15px;
     margin-left: 13vw;
     margin-top: -15vh;
     background-color: #fff;
     max-width: 200px;
+    position: relative;
+    z-index: 3;
+}
+
+.innerstreet a{
+font-size: inherit;
 }
 
 footer .smallicon {
