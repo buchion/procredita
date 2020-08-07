@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;600&display=swap');
-@import url('http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.ttf');
-@font-face {font-family: "Trueno";
-    src: url("http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/ec0dbdb6bebc34634ada7628478460eb.svg#Trueno") format("svg"); /* iOS 4.1- */
+
+@font-face {
+    font-family: "Trueno";
+    src: url('./font/TruenoBdOl.otf');
+    font-style: normal;
+    font-family: 100,200,300,400,500,600,700,800,900;
 }
 p, h4, h3{
     line-height: 1.7em;
