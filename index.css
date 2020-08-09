@@ -367,7 +367,6 @@ margin-top: 3vh;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    height: 45%;
 }
 
 .fourthdiv strong {
@@ -514,7 +513,7 @@ footer .smallicon {
 }
 
 .street {
-    background-image: url('./images/iloilostreetsnorth.svg');
+    background-image: url('./images/maps.svg');
 }
 
 .footerdiv .icons i {
@@ -551,3 +550,43 @@ footer .smallicon {
     font-weight: bold;
     font-size: 13px !important;
   }
+
+  .pulse
+{
+  float: left;
+  position: relative;
+  top: -25vh;
+    right: -14.1vw;
+  /* margin: 10px; */
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  background: #168dff;
+  border-radius: 50%;
+  animation: shadow-pulse 2s infinite;
+}
+
+.wrapper
+{ 
+  padding: 10px;     
+} 
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+  }
+}
